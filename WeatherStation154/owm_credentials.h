@@ -1,9 +1,9 @@
 // Change to your WiFi credentials
 const char* ssid     = "TP-LINK";     // WiFi SSID to connect to "TP-LINK"; "TP-Link_FB54";
-const char* password = "123456789"; // WiFi password needed for the SSID "123456789"; "80026983";
+const char* password = "00000000"; // WiFi password needed for the SSID "123456789"; "80026983";
 
 // Use your own API key by signing up for a free developer account at https://openweathermap.org/
-String apikey       = "fc7291e7f9fdceebc7a765fb988869f3";                      // See: https://openweathermap.org/  // It's free to get an API key, but don't take more than 60 readings/minute!
+String apikey       = "fc7291e7f9fdceebc7a765fb9880000";                      // See: https://openweathermap.org/  // It's free to get an API key, but don't take more than 60 readings/minute!
 const char server[] = "api.openweathermap.org";
 //http://api.openweathermap.org/data/2.5/weather?q=Melksham,UK&APPID=your_OWM_API_key&mode=json&units=metric&cnt=1   // Example API call for weather data
 //http://api.openweathermap.org/data/2.5/forecast?q=Melksham,UK&APPID=your_OWM_API_key&mode=json&units=metric&cnt=40 // Example API call for forecast data
