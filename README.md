@@ -1,5 +1,7 @@
 # ESP32-ePaper
 
+ePaper MH-ET-LIVE 1.54" Tri Color 
+
 ```
 // Connections for e.g. LOLIN D32
 static const uint8_t EPD_BUSY = 4;  // to EPD BUSY
